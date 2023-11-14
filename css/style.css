@@ -29,6 +29,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 .container {
     /* background: yellow; */
@@ -201,7 +202,7 @@ a {
     }
     .favori i{
         font-size: 1.5rem;
-        color: rgba(16, 16, 16, 1);
+        color: rgba(16, 16, 16, .7);
     }
     /* footer */
     footer{
