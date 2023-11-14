@@ -20,7 +20,7 @@
 }
 body{
     font-family: "Open Sans", sans-serif;
-    background: red;
+    /* background: red; */
 }
 ul {
     list-style: none;
@@ -31,7 +31,7 @@ a {
     text-decoration: none;
 }
 .container {
-    background: yellow;
+    /* background: yellow; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
