@@ -20,15 +20,15 @@ Concurrence
 ![1](img)
 
 # Objectif :ok_hand:
-- Mettre en œuvre des effets CSS graphiques avancés
+ - Mettre en œuvre des effets CSS graphiques avancés
 
-- Assurer la cohérence graphique d'un site web
+ - Assurer la cohérence graphique d'un site web
 
-- Mettre en place une structure de navigation pour un site web
+ - Mettre en place une structure de navigation pour un site web
 
-- Mettre en place son environnement Front-End
+ - Mettre en place son environnement Front-End
 
-- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+ - Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 
 # Maquette :point_down:
 [figma](https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=0%3A1&mode=dev)
