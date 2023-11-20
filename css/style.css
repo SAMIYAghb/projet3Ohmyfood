@@ -85,46 +85,44 @@ Extra large screens, TV – 1201px, and more. */
     }
 } */
 /****** end General ***********/
-/*  mobile L & less home page */
-/* @media  (min-width: 320px) and (max-width: 425px) { */
-@media  (min-width: 320px) and (max-width: 768px) {
+nav,
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+}
+.logo {
+    width: 12.3rem;
+    height: 2.25rem;
+}
+.location {
+    background-color: var(--grey-color);
+}
+.hero{
+    background:var(--grey-bg-color);
+    text-align: center;
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+}
+.btn{
+    color: var(--white-color);
+    border-radius: 1.5rem;
+    border: none;
+    background:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    padding: 1rem 2rem;
+    font-size: 1em;
+    font-weight: 500;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+}
+@media  (min-width: 320px) and (max-width: 425px) {
+    /*  mobile L & less home page */
     .container {
         min-width: 296px;
         /* max-width: 393px; */
-        max-width: 750px;
     }
-    nav,
-    .location {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem; 
-    }
-    
-    .logo {
-        width: 12.3rem;
-        height: 2.25rem;
-    }
-    .location {
-        background-color: var(--grey-color);
-    }
-    .hero{
-        background:var(--grey-bg-color);
-        text-align: center;
-        padding-top: var(--padding-top);
-        padding-bottom: var(--padding-bottom);
-    }
-    .btn{
-        color: var(--white-color);
-        border-radius: 1.5rem;
-        border: none;
-        background:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-        padding: 1rem 2rem;
-        font-size: 1em;
-        font-weight: 500;
-        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-        margin-top: 2rem;
-    }
+
     /* fonctionnement */
     .fonction{
         background: var(--white-color);
@@ -232,36 +230,33 @@ Extra large screens, TV – 1201px, and more. */
         color: var(--white-color);
         
     }
-}
-/*end mobile L &less home page*/
-/*  mobile L & less Pages */
-/* @media  (min-width: 320px) and (max-width: 425px) { */
-    @media  (min-width: 320px) and (max-width: 768px) {
-    header{
-        position: relative; 
+    /*end  home page mobile L & less end*****************/
+    /* start  Pages  mobile L & less***************/
+
+    .page-logo-img{
+        width: 100%;
     }
     .page-img{
+        top: -9px;
         width: 100%;
         height: 17.2rem;
         object-fit: cover;       
     }
     .page{
-        /* position: relative; */
+        position: relative;
+        top: -3rem;
         background: var(--grey-bg-color);
         padding-top: var(--padding-top);
-        padding-bottom: var(--padding-bottom);
+        border-radius: 2.5rem 2.5rem 0 0;
     }
     .menu{  
-        /* position: absolute; */
-        width: 100%;
-        /* top: -4rem; */
-        border-radius: 2rem 2rem 0 0;
+        width: 100%;   
     }
     .menu-title{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 2rem ;
+        padding: .6rem 0;
     }
     h3{
         font-size: 1.1rem;
@@ -300,16 +295,17 @@ Extra large screens, TV – 1201px, and more. */
         display: flex;
         justify-content: center;
     }
+    /* end  mobile L & less Pages*************** */
 }
-/*end mobile L & less Pages*/
-
+/* ************************ */
 /* tablette et laptop  */
-
-@media (min-width: 769px){
+/* start  Home Pages   *****/
+@media (min-width: 426px){
     .container{
-        min-width: 750px;
+
+        /* min-width: 394px; */
         max-width: 1440px;
-        background: #FF79DA;
+        background: #3213cc;
     }
     .page-img{
         width: 100%;
@@ -317,6 +313,22 @@ Extra large screens, TV – 1201px, and more. */
         height: 14.4rem;
         object-fit: cover;       
     }
+
+    /* footer{
+        background: #353535;
+        color: var(--white-color);
+        padding: var(--padding-top) 0 var(--padding-bottom) 1rem;  
+        
+        
+    }
+    .main-footer{ 
+        display:flex;
+    } */
+    /* end Home Pages   ****/
+
+    /*start Pages *** */
+
+    /*end  Pages ****/
 } 
 /* end tablette et laptop  */
 
