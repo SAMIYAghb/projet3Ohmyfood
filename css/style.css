@@ -169,25 +169,30 @@ a {
     position: relative;
 }
 .favori i{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgba(16, 16, 16, .7);
-    /* position: absolute; */
+    position: absolute;
     right: 1rem;
-    /* top: 50%; */
-    /* transform: translate(-50%); */
+    bottom: 50%;
 }
 .full-heart{
-    color: transparent;
-    background-image: linear-gradient(red, blue);
-    background-clip: text;
-    /* L'arrière-plan se limite au texte au premier-plan. */
+    opacity: 0;
+    transition: all 200ms ease-in;
+}
+.full-heart:hover{
+    opacity: 1;
+    color: transparent; 
+    background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
+     /* L'arrière-plan se limite au texte au premier-plan. */
     -webkit-background-clip: text;
-    /* opacity: 0;
-    transition: all 200ms ease-in; */
+    color: transparent;
+    background-clip: text;  
 }
-.fa-heart:hover{
-    /* opacity: 1; */
+.emty-heart{
+    
 }
+
+
 /* footer */
 footer{
     background: #353535;
@@ -200,7 +205,7 @@ footer{
 .main-footer li{
     margin-bottom: .8rem;
 }
-.main-footer li i{
+.main-footer li > i{
     padding-right: 1rem;   
 }
 .main-footer a{
@@ -239,12 +244,12 @@ h1.shrik-font{
 .menu{  
     width: 100%;   
 }
-.menu-title{
+/* .menu-title{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: .6rem 0;
-}
+} */
 h3{
     font-size: 1.1rem;
 }
