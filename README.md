@@ -17,9 +17,7 @@ dans lesquelles nous sommes établis. Nous souhaitons être identifiés comme un
 entreprise proposant des services haut de gamme.
 Concurrence
 
-![oh](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/ff31cd11-f144-4d2b-887a-c1fde43056fa)
-
-![oh1](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/63f44e57-8b95-46a7-976e-75b41a19feac)
+![oh](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/ff31cd11-f144-4d2b-887a-c1fde43056fa)![oh1](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/63f44e57-8b95-46a7-976e-75b41a19feac)
 
 # Objectif :ok_hand:
  - Mettre en œuvre des effets CSS graphiques avancés
