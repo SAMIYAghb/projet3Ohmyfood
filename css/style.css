@@ -489,21 +489,20 @@ h3{
 .delay-4 {
     animation-delay: .500s;
 }
-
 .delay-5 {
     animation-delay: .625s;
 }
-
 .delay-6 {
     animation-delay: .750s;
 }
-
 .delay-7 {
     animation-delay: .875s;
 }
-
 .delay-8 {
     animation-delay: 1s;
+} 
+.delay-8 {
+    animation-delay: 1.125s;
 } 
 
 @keyframes menu-apear{
