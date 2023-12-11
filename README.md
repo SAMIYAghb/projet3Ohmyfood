@@ -1,23 +1,25 @@
 # projet3: Oh my food :wave:
 
-- Identité
+- Identité: 
 Ohmyfood est une entreprise de commande de repas en ligne. Notre concept permet aux
 utilisateurs de composer leur propre menu et de réduire leur temps d’attente dans les
 restaurants, car leur menu est préparé à l’avance. Plus de perte de temps à consulter la
 carte !
 
-- Proposition
+- Proposition: 
 Nous souhaitons proposer à nos clients les menus de restaurants gastronomiques. Après
 l’avoir développé à New-York dans un premier temps, nous souhaitons désormais élargir
 notre concept à la capitale de la gastronomie : Paris.
 
-- Positionnement
+- Positionnement:
 Nous nous positionnons sur un marché de niche, avec les restaurants luxueux des villes
 dans lesquelles nous sommes établis. Nous souhaitons être identifiés comme une
 entreprise proposant des services haut de gamme.
 Concurrence
 
-![1](img)
+![oh](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/ff31cd11-f144-4d2b-887a-c1fde43056fa)   ![oh1](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/63f44e57-8b95-46a7-976e-75b41a19feac)
+![oh3](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/0b6f56ad-f365-4bb7-bbf1-cea97344dc89)
+![oh4](https://github.com/SAMIYAghb/projet3Ohmyfood/assets/95091637/742ed554-5604-4ce9-8b99-7b581bab7882)
 
 # Objectif :ok_hand:
  - Mettre en œuvre des effets CSS graphiques avancés
