@@ -1,4 +1,4 @@
-/* ***** General **********  */
+
 * {
     padding: 0;
     margin: 0;
@@ -32,7 +32,6 @@ a {
     color: black;
 }
 .container {
-    /* background: yellow; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -111,11 +110,6 @@ a {
     font-size: 1.4rem;
     padding: 0 2rem;
 }
-/* @media (max-width: 430px) {
-    .group p{                             
-    font-weight: 400;
-}
-}                              */
 .numero{
     position: absolute;
     left: -2%;
@@ -187,12 +181,11 @@ a {
 }
 .full-heart:hover{
     opacity: 1;
-    color: transparent; 
     background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
-     /* L'arrière-plan se limite au texte au premier-plan. */
+     /* L'arrière-plan se limite au bordure du coeur. */
+     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
-    background-clip: text;
+    color: transparent; 
     animation: .3s heart-animation ease-in;  
 }
 @keyframes heart-animation{
@@ -508,19 +501,11 @@ h3{
 @keyframes menu-apear{
     0%{
         transform: translateY(50%);
-        /* opacity: 0; */
         scale: 0;
     }
     100%{
         transform: translateY(0);
-        /* opacity: 1; */
         scale: 1;
     }
 }
-.meal{
-    /* animation: 5s menu-apear; */
-    /* animation-timing-function: cubic-bezier(.5,1.58,.34,.82); */
-    /* animation-fill-mode: both; */
-}
-
 /* menu-apear */
