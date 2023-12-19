@@ -6,13 +6,14 @@
 }
 :root {
     --main-color: #9356dc;
-    --blue-color: #003a68;
-    --lightbleu-color: #99E2D0;
-    --green-color: #008766;
-    --lightgreen-color: #99e2d0;
-    --white-color: #fff;
-    --grey-color: #eaeaea;
-    --grey-bg-color: #f6f6f6;
+    --second-color: #003a68;
+    --third-color: #008766;
+    --fourth-color: #99E2D0;
+    --fifth-color: #eaeaea;
+    --sixth-color: #f6f6f6;
+    --seventh-color: #fff;
+    --eighth-color:#FF79DA;
+    --ninth-color:rgba(255, 255, 255, 0.15);
     --padding-top: 2rem;
     --padding-bottom: 2rem;
 }
@@ -48,19 +49,19 @@ a {
     padding: 1rem; 
 }
 .location {
-    background-color: var(--grey-color);
+    background-color: var(--fifth-color);
 }
 .hero{
-    background:var(--grey-bg-color);
+    background:var(--sixth-color);
     text-align: center;
     padding-top: var(--padding-top);
     padding-bottom: var(--padding-bottom);
 }
 .btn{
-    color: var(--white-color);
+    color: var(--seventh-color);
     border-radius: 1.5rem;
     border: none;
-    background:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background:linear-gradient(193.33deg,var(--main-color) -11.44%,var( --eighth-color) 123.93%);
     padding: 1rem 2rem;
     font-size: 1em;
     font-weight: 500;
@@ -70,13 +71,13 @@ a {
     cursor: pointer;
 }
 .btn:hover{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
+    background: linear-gradient(0deg,var(--ninth-color) 0%, var(--ninth-color) 100%), linear-gradient(201deg,var(--main-color) -5.2%,var( --eighth-color) 110.74%);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.45);
     transform: scale(1.02);
 }
 /* fonctionnement */
 .fonction{
-    background: var(--white-color);
+    background: var(--seventh-color);
     padding-top: var(--padding-top);
     padding-bottom: var(--padding-bottom);
 }
@@ -84,7 +85,7 @@ a {
     padding: 0 2rem 2rem;
 }
 .group{
-    background-color: var(--grey-bg-color);
+    background-color: var(--sixth-color);
     border-radius: 1.25rem;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -117,7 +118,7 @@ a {
     height: 1.5rem;
     border-radius: 50%;
     background-color: var(--main-color);
-    color: var(--white-color);
+    color: var(--seventh-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +127,7 @@ a {
 }
 /* restaurants */
 .restaurants{
-    background: var(--grey-bg-color);
+    background: var(--sixth-color);
     padding-top: var(--padding-top);
     padding-bottom: var(--padding-bottom);
 }
@@ -136,7 +137,7 @@ a {
 }
 .cart{
    width: 100%; 
-   background: var(--white-color);
+   background: var(--seventh-color);
    border-radius: .9rem;
    margin-bottom: 1rem;
    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
@@ -153,7 +154,7 @@ a {
     right: 10px;
     top: 10px;
     background: var(--lightgreen-color);
-    color: var(--green-color);
+    color: var(--third-color);
     padding: 5px;
 }
 .img-detail{
@@ -181,7 +182,7 @@ a {
 }
 .full-heart:hover{
     opacity: 1;
-    background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
+    background-image:linear-gradient(0deg, var(--ninth-color) 0%, var(--ninth-color) 100%), linear-gradient(201deg,var(--main-color)-5.2%,var( --eighth-color) 110.74%);
      /* L'arrière-plan se limite au bordure du coeur. */
      background-clip: text;
     -webkit-background-clip: text;
@@ -199,7 +200,7 @@ a {
 /* footer */
 footer{
     background: #353535;
-    color: var(--white-color);
+    color: var(--seventh-color);
     padding: var(--padding-top) 0 var(--padding-bottom) 1rem;       
 }
 .main-footer ul{
@@ -209,7 +210,7 @@ footer{
     margin-bottom: .8rem;
 }
 .main-footer a{
-    color: var(--white-color);   
+    color: var(--seventh-color);   
 }
 .fa-utensils{
     padding-right: 1rem;
@@ -242,7 +243,7 @@ h1.shrik-font{
 .page{
     position: relative;
     top: -3rem;
-    background: var(--grey-bg-color);
+    background: var(--sixth-color);
     padding-top: var(--padding-top);
     border-radius: 2.5rem 2.5rem 0 0;
 }
@@ -266,7 +267,7 @@ h3{
     position: absolute;
     width: 2.5rem;
     height: .18rem;
-    background: var(--lightbleu-color);
+    background: var(--fourth-color);
     top: 1.2rem;
     left: 0;
 }
@@ -281,7 +282,7 @@ h3{
     animation-fill-mode: both; /*element apparaite un par un*/
 }
 .check-icon{
-    color: #fff;
+    color:var(--seventh-color);
     font-weight: bold; 
     font-size: 1.7rem;
 }
@@ -299,7 +300,7 @@ h3{
     overflow: hidden; 
 }
 .price-check{
-    background-color: #99e2d0;
+    background-color: var(--fourth-color);
     width: 4rem;
     height: 4rem;
     margin-right: -4rem;
@@ -431,14 +432,14 @@ h3{
     justify-content: space-between
 }
 .loader-item--1 {
-    background-color: #9356dc
+    background-color:var(--main-color)
 }
 .loader-item--2 {
-    background-color: #ff79da;
+    background-color:var( --eighth-color);
     animation-delay: .25s
 }
 .loader-item--3 {
-    background-color: #99e2d0;
+    background-color:var(--fourth-color);
     animation-delay: .5s
 }
 @keyframes loader {
