@@ -1,5 +1,8 @@
 # projet3: Oh my food :wave:
 
+# Author :sunglasses:
+[Samiya Brd](https://www.linkedin.com/in/samiyab/)
+
 - Identité: 
 Ohmyfood est une entreprise de commande de repas en ligne. Notre concept permet aux
 utilisateurs de composer leur propre menu et de réduire leur temps d’attente dans les
@@ -34,9 +37,6 @@ Concurrence
 
 # Maquette :point_down:
 [figma](https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=0%3A1&mode=dev)
-
-# Author :sunglasses:
-[Samiya Brd](https://www.linkedin.com/in/samiyab/)
 
 # Website link :sunglasses:
 [OhMyFood](https://samiyaghb.github.io/projet3Ohmyfood/)
