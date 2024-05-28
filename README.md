@@ -36,7 +36,7 @@ Concurrence
 [figma](https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=0%3A1&mode=dev)
 
 # Author :sunglasses:
-[Samiya Bouridane](https://www.linkedin.com/in/samiyab/)
+[Samiya Brd](https://www.linkedin.com/in/samiyab/)
 
 # Website link :sunglasses:
 [OhMyFood](https://samiyaghb.github.io/projet3Ohmyfood/)
